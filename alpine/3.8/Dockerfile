@@ -18,4 +18,6 @@ RUN mkdir /var/cvsroot
 
 VOLUME ["/var/cvsroot"]
 
+EXPOSE 2401
+
 CMD ["/run.sh"]
